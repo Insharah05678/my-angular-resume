@@ -1,0 +1,51 @@
+.hero {
+  min-height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+  padding: 48px 48px 42px;
+  background:
+    radial-gradient(circle at 90% 20%, rgba(139,111,86,.15), transparent 28%),
+    linear-gradient(135deg, #f7f2ec, #e8dfd5);
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  margin: 0 0 15px;
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: .28em;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(48px, 7vw, 82px);
+  line-height: .84;
+  letter-spacing: -.045em;
+  color: #29231f;
+}
+
+h1 span { color: var(--accent); }
+
+
+.hero-contact a,
+.hero-contact > span {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.hero-contact i {
+  width: 16px;
+  text-align: center;
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.hero-contact a:hover {
+  color: var(--accent);
+}
+

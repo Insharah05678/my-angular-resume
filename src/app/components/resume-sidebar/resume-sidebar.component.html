@@ -1,0 +1,17 @@
+<section class="side-section">
+  <h2>Skills</h2>
+
+  <div class="skill-group" *ngFor="let group of skillGroups">
+    <h3>{{ group.title }}</h3>
+    <ul>
+      <li *ngFor="let skill of group.items">{{ skill }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="side-section">
+  <h2>Certificates</h2>
+  <ul class="certificate-list">
+    <li *ngFor="let certificate of certificates">{{ certificate }}</li>
+  </ul>
+</section>

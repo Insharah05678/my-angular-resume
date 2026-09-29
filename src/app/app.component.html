@@ -1,0 +1,35 @@
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <span>INSHARAH RIAZ — RESUME</span>
+    <button type="button" (click)="printResume()">Print / Save PDF</button>
+  </div>
+</div>
+
+<main class="resume-shell">
+  <div class="resume-page">
+    <app-resume-header />
+
+    <div class="content-grid">
+      <aside class="sidebar">
+        <app-resume-sidebar />
+      </aside>
+
+      <section class="main-content" aria-label="Resume content">
+        <section class="resume-section summary-section" id="summary">
+          <h2>Summary</h2>
+          <p>
+            I Aspiring to join a forward-thinking organization that prioritizes
+            progressive development and innovation, the individual possesses
+            diverse skills in various computer systems, programming languages,
+            and tools. They highlight strong problem-solving capabilities,
+            effective communication skills, and a commitment to teamwork.
+          </p>
+        </section>
+
+        <app-experience />
+        <app-education />
+        <app-projects />
+      </section>
+    </div>
+  </div>
+</main>

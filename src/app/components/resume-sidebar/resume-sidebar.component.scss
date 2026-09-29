@@ -1,0 +1,52 @@
+.side-section {
+  margin-bottom: 36px;
+}
+
+.side-section h2 {
+  margin: 0 0 18px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #3a332d;
+}
+
+.skill-group {
+  margin-bottom: 21px;
+}
+
+.skill-group h3 {
+  margin: 0 0 8px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  color: var(--accent);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  position: relative;
+  margin: 0 0 7px;
+  padding-left: 13px;
+  color: #4c4742;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .65em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.certificate-list li { margin-bottom: 10px; }

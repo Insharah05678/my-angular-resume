@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  --ink: #252525;
+  --muted: #707070;
+  --paper: #fffdf9;
+  --cream: #f3eee7;
+  --accent: #8b6f56;
+  --line: #ded7cf;
+  --sidebar: #eee8e0;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: #d9d4ce;
+  color: var(--ink);
+  font-family: 'DM Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, a { font: inherit; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+@media print {
+  body { background: white; }
+  .toolbar { display: none !important; }
+  .resume-shell { box-shadow: none !important; margin: 0 !important; }
+  .resume-page { min-height: auto !important; }
+}

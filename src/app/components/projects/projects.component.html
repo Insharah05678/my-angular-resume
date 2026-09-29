@@ -1,0 +1,11 @@
+<section class="resume-section" id="projects">
+  <h2>Projects</h2>
+
+  <article class="project-item" *ngFor="let project of projects">
+    <div class="project-title">
+      <h3>{{ project.title }}</h3>
+      <span>{{ project.type }}</span>
+    </div>
+    <p>{{ project.description }}</p>
+  </article>
+</section>

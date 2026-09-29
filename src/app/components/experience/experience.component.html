@@ -1,0 +1,17 @@
+<section class="resume-section" id="experience">
+  <h2>Professional Experience</h2>
+
+  <article class="experience-item" *ngFor="let item of experiences">
+    <div class="experience-heading">
+      <div>
+        <h3>{{ item.role }}</h3>
+        <p class="company">{{ item.company }}</p>
+      </div>
+      <div class="meta">
+        <strong>{{ item.dates }}</strong>
+        <span>{{ item.location }}</span>
+      </div>
+    </div>
+    <p class="description">{{ item.description }}</p>
+  </article>
+</section>
