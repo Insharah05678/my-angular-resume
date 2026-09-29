@@ -40,3 +40,32 @@ a {
   .resume-shell { box-shadow: none !important; margin: 0 !important; }
   .resume-page { min-height: auto !important; }
 }
+/* Desktop ka default */
+.resume-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+/* Mobile ke liye - 768px se chhoti screen */
+@media (max-width: 768px) {
+  .resume-container {
+    flex-direction: column; /* side by side ki jagah upar-neeche */
+    padding: 10px;
+  }
+
+  .resume-header {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  img, .profile-img {
+    width: 100%; /* image full width */
+    height: auto;
+  }
+  
+  h1, h2, h3 {
+    word-break: break-word;
+  }
+}
