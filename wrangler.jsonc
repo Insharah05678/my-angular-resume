@@ -1,7 +1,0 @@
-{
-  "name": "my-angular-resume",
-  "assets": {
-    "directory": "./dist/insharah-resume/browser",
-    "not_found_handling": "single-page-application"
-  }
-}
