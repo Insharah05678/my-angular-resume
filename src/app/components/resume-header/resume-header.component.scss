@@ -71,10 +71,10 @@
 }
 
 h1 {
-  margin: 0;
+  //margin: 0;
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(48px, 7vw, 82px); /* BARI SCREEN PE YEHI RAHEGA */
-  line-height: .84;
+  font-size: clamp(40px, 6vw, 75px); /* BARI SCREEN PE YEHI RAHEGA */
+  line-height: .80;
   letter-spacing: -.045em;
   color: #29231f;
   writing-mode: horizontal-tb;
