@@ -71,30 +71,20 @@ h1 span { color: var(--accent); }
 }
 
 /* === YEH MOBILE FIX HAI === */
+/* ELSE part - Bari screen (Desktop) */
+.name {
+  display: flex;
+  flex-direction: row; /* horizontal */
+  font-size: 50px;
+  letter-spacing: 3px;
+  writing-mode: horizontal-tb !important;
+}
+
+/* IF part - Choti screen (Mobile) */
 @media (max-width: 768px) {
-  .header-wrapper {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    padding: 20px !important;
-  }
-
-  /* YEH GREEN WALE NAAM KA FIX HAI */
-  .name, h1 {
-    writing-mode: horizontal-tb !important; /* vertical se horizontal */
-    display: flex !important;
+  .name {
+    font-size: 22px !important; /* choti screen pe chhota */
     flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 6px !important;
-    font-size: 22px !important; /* chhota kar diya */
-    line-height: 1.2 !important;
-    letter-spacing: 2px !important;
-    width: 100% !important;
-    text-align: left !important;
-  }
-
-  /* Insharah Riaz ek line me aa jayega */
-  .name br {
-    display: none; /* jo <br> se naam toot raha tha usko khatam */
+    gap: 5px;
   }
 }
