@@ -49,4 +49,9 @@ export class ResumeSidebarComponent {
     'JUW-Mathletes Society Performance (for web developer)',
     'Introduction to Flutter (10Pearls University)'
   ];
+
+    weblink1 = ['https://my-angular-resume.insharah-ir.workers.dev/'
+  ];    
+  weblink2 = ['https://business-hub.insharah-ir.workers.dev/'
+  ];
 }
